@@ -1,3 +1,3 @@
-Threads/bin/Debug/Threads.exe.config
-Threads/bin/Debug/Threads.vshost.exe.manifest
-Threads/bin/
+bin
+obj
+.vs/MyThreadsSample/v14/.suo
