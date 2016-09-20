@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ThreadBackground", "Thre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Interlocked", "Interlocked\Interlocked\06_Interlocked.csproj", "{A958F8C8-0056-4AF6-9F7F-02C79412BC28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Monitor", "Monitor\monitor\07_Monitor.csproj", "{4EE6366E-F182-43D7-9587-4CD4C1ED73CA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{A958F8C8-0056-4AF6-9F7F-02C79412BC28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A958F8C8-0056-4AF6-9F7F-02C79412BC28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A958F8C8-0056-4AF6-9F7F-02C79412BC28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE6366E-F182-43D7-9587-4CD4C1ED73CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE6366E-F182-43D7-9587-4CD4C1ED73CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE6366E-F182-43D7-9587-4CD4C1ED73CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE6366E-F182-43D7-9587-4CD4C1ED73CA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
