@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_CriticalSection", "Criti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ThreadJoin", "ThreadJoin\03_ThreadJoin.csproj", "{7A56BC33-B8B4-472B-969A-20F221360F7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Thread_Abort", "04_ThreadAbort\Thread_Abort\04_Thread_Abort.csproj", "{FDBC03D4-CDCC-4397-95E6-2089100E5C3F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ThreadBackground", "ThreadBackground\05_ThreadBackground.csproj", "{2ADF8D15-6F16-4906-BD30-390260C15CBB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{7A56BC33-B8B4-472B-969A-20F221360F7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A56BC33-B8B4-472B-969A-20F221360F7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A56BC33-B8B4-472B-969A-20F221360F7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDBC03D4-CDCC-4397-95E6-2089100E5C3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBC03D4-CDCC-4397-95E6-2089100E5C3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBC03D4-CDCC-4397-95E6-2089100E5C3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBC03D4-CDCC-4397-95E6-2089100E5C3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ADF8D15-6F16-4906-BD30-390260C15CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ADF8D15-6F16-4906-BD30-390260C15CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ADF8D15-6F16-4906-BD30-390260C15CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ADF8D15-6F16-4906-BD30-390260C15CBB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
