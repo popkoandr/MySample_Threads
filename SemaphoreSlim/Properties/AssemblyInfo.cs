@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("2_MutexSample")]
+[assembly: AssemblyTitle("SemaphoreSlim")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("2_MutexSample")]
+[assembly: AssemblyProduct("SemaphoreSlim")]
 [assembly: AssemblyCopyright("Copyright ©  2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("c57d50e0-61ec-4385-ba0c-d3d38cc38c22")]
+[assembly: Guid("1ca1cf70-e927-4499-9eaa-e01b798e6fd0")]
 
 // Version information for an assembly consists of the following four values:
 //
