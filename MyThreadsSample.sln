@@ -3,45 +3,49 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25123.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Threads", "Threads\01_Threads.csproj", "{B0C33C08-DEC2-4ECD-BE2E-BBA08EEA8F32}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01_Threads", "01_Threads\01_Threads.csproj", "{B0C33C08-DEC2-4ECD-BE2E-BBA08EEA8F32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_CriticalSection", "CriticalSection\02_CriticalSection.csproj", "{A9894967-7C63-4D2E-AB2B-E13CB311FEC7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_CriticalSection", "02_CriticalSection\02_CriticalSection.csproj", "{A9894967-7C63-4D2E-AB2B-E13CB311FEC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ThreadJoin", "ThreadJoin\03_ThreadJoin.csproj", "{7A56BC33-B8B4-472B-969A-20F221360F7F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_ThreadJoin", "03_ThreadJoin\03_ThreadJoin.csproj", "{7A56BC33-B8B4-472B-969A-20F221360F7F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_Thread_Abort", "04_ThreadAbort\Thread_Abort\04_Thread_Abort.csproj", "{FDBC03D4-CDCC-4397-95E6-2089100E5C3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ThreadBackground", "ThreadBackground\05_ThreadBackground.csproj", "{2ADF8D15-6F16-4906-BD30-390260C15CBB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_ThreadBackground", "05_ThreadBackground\05_ThreadBackground.csproj", "{2ADF8D15-6F16-4906-BD30-390260C15CBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Interlocked", "Interlocked\Interlocked\06_Interlocked.csproj", "{A958F8C8-0056-4AF6-9F7F-02C79412BC28}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_Interlocked", "06_Interlocked\Interlocked\06_Interlocked.csproj", "{A958F8C8-0056-4AF6-9F7F-02C79412BC28}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Monitor", "Monitor\monitor\07_Monitor.csproj", "{4EE6366E-F182-43D7-9587-4CD4C1ED73CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_Monitor", "07_Monitor\monitor\07_Monitor.csproj", "{4EE6366E-F182-43D7-9587-4CD4C1ED73CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_1_Volatile", "VolatileSample\08_1_Volatile.csproj", "{E5765ED7-D8BE-467A-ABB7-C38DF783B268}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_1_Volatile", "08_1_VolatileSample\08_1_Volatile.csproj", "{E5765ED7-D8BE-467A-ABB7-C38DF783B268}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_2_Volatile", "VolatileSample2\08_2_Volatile.csproj", "{B325CFAB-5DDD-4BF6-B9A8-AE9B2037E39F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_2_Volatile", "08_2_VolatileSample2\08_2_Volatile.csproj", "{B325CFAB-5DDD-4BF6-B9A8-AE9B2037E39F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_ThreadPool", "ThreadPool\09_ThreadPool.csproj", "{E0B0787E-6F9F-48BE-94B9-B202E685AA52}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_ThreadPool", "09_ThreadPool\09_ThreadPool.csproj", "{E0B0787E-6F9F-48BE-94B9-B202E685AA52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Mutex", "MutexSample\10_Mutex.csproj", "{FF4AC18C-6C81-4B8B-B9F8-30D95CFA9B64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Mutex", "10_MutexSample\10_Mutex.csproj", "{FF4AC18C-6C81-4B8B-B9F8-30D95CFA9B64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Mutex", "002_MutexSemaphore\Mutex\11_Mutex.csproj", "{31D756D2-4491-45A1-9E56-C4E1BD48B8AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_Mutex", "11_Mutex\11_Mutex.csproj", "{31D756D2-4491-45A1-9E56-C4E1BD48B8AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Mutex", "2_MutexSample\12_Mutex.csproj", "{C53976E8-5DFC-48F5-A32D-AFCA154372C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Mutex", "12_MutexSample\12_Mutex.csproj", "{C53976E8-5DFC-48F5-A32D-AFCA154372C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Semaphore", "002_MutexSemaphore\Semaphore\13_Semaphore.csproj", "{07DF79C2-63F3-4A0F-A59C-2B2F6C36D63B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_Semaphore", "13_Semaphore\13_Semaphore.csproj", "{07DF79C2-63F3-4A0F-A59C-2B2F6C36D63B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_SemaphoreSlim", "SemaphoreSlim\14_SemaphoreSlim.csproj", "{4FB0B78D-4A3A-47A1-A2A9-4457C25EF52D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_SemaphoreSlim", "14_SemaphoreSlim\14_SemaphoreSlim.csproj", "{4FB0B78D-4A3A-47A1-A2A9-4457C25EF52D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_AutoResetEvent", "1_EventWaitHandle\15_AutoResetEvent.csproj", "{7C3FE19E-8946-4D52-8BE8-E549F0E6C514}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_AutoResetEvent", "15_EventWaitHandle\15_AutoResetEvent.csproj", "{7C3FE19E-8946-4D52-8BE8-E549F0E6C514}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_ManualResetEvent", "2_ManualResetEvent\16_ManualResetEvent.csproj", "{85070130-B949-481B-A5AC-8E893B2C2340}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_ManualResetEvent", "16_ManualResetEvent\16_ManualResetEvent.csproj", "{85070130-B949-481B-A5AC-8E893B2C2340}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_ManualResetEventSlim", "EventSlim\17_ManualResetEventSlim.csproj", "{BC1BF174-B1F3-4E40-93EC-22F735273A45}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_ManualResetEventSlim", "17_EventSlim\17_ManualResetEventSlim.csproj", "{BC1BF174-B1F3-4E40-93EC-22F735273A45}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_BenefitsOfManualResetEventSlim", "18_BenefitsOfManualResetEventSlim\18_BenefitsOfManualResetEventSlim.csproj", "{E867644D-6F51-45C6-AFC0-757CCB02E813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_RegistredWaitHandle", "3_RegistredWaitHandle\19_RegistredWaitHandle.csproj", "{C23DD544-1CF5-4E9F-BCCF-8063BD08298D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_RegistredWaitHandle", "19_RegistredWaitHandle\19_RegistredWaitHandle.csproj", "{C23DD544-1CF5-4E9F-BCCF-8063BD08298D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_GlobalEvent", "20_GlobalEvent\20_GlobalEvent.csproj", "{2399C58E-C05E-449D-A88B-7C23AE60E8A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_WaitHandle", "21_WaitHandle\21_WaitHandle.csproj", "{79F18DF3-E717-412A-BE32-BD934D46FDE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -201,6 +205,20 @@ Global
 		{C23DD544-1CF5-4E9F-BCCF-8063BD08298D}.Release|Any CPU.ActiveCfg = Release|x86
 		{C23DD544-1CF5-4E9F-BCCF-8063BD08298D}.Release|x86.ActiveCfg = Release|x86
 		{C23DD544-1CF5-4E9F-BCCF-8063BD08298D}.Release|x86.Build.0 = Release|x86
+		{2399C58E-C05E-449D-A88B-7C23AE60E8A5}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{2399C58E-C05E-449D-A88B-7C23AE60E8A5}.Debug|x86.ActiveCfg = Debug|x86
+		{2399C58E-C05E-449D-A88B-7C23AE60E8A5}.Debug|x86.Build.0 = Debug|x86
+		{2399C58E-C05E-449D-A88B-7C23AE60E8A5}.Release|Any CPU.ActiveCfg = Release|x86
+		{2399C58E-C05E-449D-A88B-7C23AE60E8A5}.Release|x86.ActiveCfg = Release|x86
+		{2399C58E-C05E-449D-A88B-7C23AE60E8A5}.Release|x86.Build.0 = Release|x86
+		{79F18DF3-E717-412A-BE32-BD934D46FDE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79F18DF3-E717-412A-BE32-BD934D46FDE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79F18DF3-E717-412A-BE32-BD934D46FDE6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{79F18DF3-E717-412A-BE32-BD934D46FDE6}.Debug|x86.Build.0 = Debug|Any CPU
+		{79F18DF3-E717-412A-BE32-BD934D46FDE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79F18DF3-E717-412A-BE32-BD934D46FDE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79F18DF3-E717-412A-BE32-BD934D46FDE6}.Release|x86.ActiveCfg = Release|Any CPU
+		{79F18DF3-E717-412A-BE32-BD934D46FDE6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
